@@ -1,0 +1,121 @@
+/* your styles go here */
+
+body{
+    background-color: rgb(248, 240, 230);
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.logo-font{
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    color: rgb(138, 65, 36);
+    font-size: 30px;
+}
+
+.logo{
+    font-size: 40px;
+}
+
+.navbar-nav .nav-link.active {
+    color:rgb(138, 65, 36);
+}
+
+a:hover {
+    color: #d8d2b8;
+  }
+.img-fluid{
+    height: 300px;
+    width: 250px;
+    object-fit: cover;
+}
+
+#main-photo{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+
+.add-on-imgs{
+    width: 280px;
+    height: 400px;
+    object-fit: cover;
+}
+
+#balloons-add-on{
+    object-position: 80% 10%;
+}
+
+.add-on-text{
+    font-style: italic;
+    color: rgb(138, 65, 36);
+}
+.home-img{
+    width: 713px;
+    height:600px;
+    object-fit: cover;
+}
+
+.img-stack{
+    display:grid;
+    grid-template-columns: repeat(12,1fr);
+    position: relative;
+    margin-left: 140px;
+}
+
+.img-stack-top{
+    grid-column: 2 / span 7;
+    grid-row: 1;
+    padding-top: 20%;
+    z-index: 1;
+}
+.img-stack-bottom{
+    grid-column: 4 / -1;
+    grid-row: 1;
+}
+
+#top-photo{
+    width:400px;
+    height:500px;
+    object-fit: cover;
+}
+
+#bottom-photo{
+    width:700px;
+    height:500px;
+    object-fit: cover;
+}
+.floated{
+    padding: 20px;
+    position: relative;
+    left: 180px;
+    width: 600px;
+    color:rgb(138, 65, 36);
+    font-size: larger;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.btn-design{
+    border-color: rgb(138, 65, 36);
+    color:rgb(138, 65, 36);
+    font-size: larger;
+}
+.btn-design:hover{
+    background-color: rgb(138, 65, 36);
+    color: white;
+    border-color: rgb(138, 65, 36);
+}
+#glamping-party-img{
+    object-position: 10% 70%;
+    width: 700px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.picnic-photos{
+    width: 725px;
+    height: 743px;
+    object-fit: cover;
+}
+.icon-align-center{
+    text-align: center;
+}
