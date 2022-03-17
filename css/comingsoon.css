@@ -22,14 +22,6 @@ body{
     margin: 0px 300px 0px 300px;
 }
 
-.center-screen {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  min-height: 100vh;
-}
-
 
 h1{
     font-family: 'Cormorant Garamond', serif;
