@@ -13,6 +13,11 @@ body{
     display: grid;
     align-items: center;
 }
+.logo-image{
+  height: 130px ;
+  width: 300px;
+  object-fit: cover;
+}
 
 .coming-soon{
     background-color: rgba(250, 235, 215, 0.749);
@@ -123,6 +128,11 @@ a:hover {
     place-items: center;
     margin: 0px 100px 0px 100px;
 }
+  .logo-image{
+    height: 90px ;
+    width: 240px;
+    object-fit: cover;
+  }
 }
 @media only screen and (max-width: 576px){
   .coming-soon{
