@@ -38,6 +38,18 @@ a:hover {
 #slides{
     height:32rem;
 }
+
+.carousel {
+    width:100%;
+    height:560px;
+  }
+
+.carousel-inner > .carousel-item > img {
+    width:340px;
+    height:560px;
+    object-fit: cover;
+  }
+
 #main-photo{
     width: 100%;
     height: 450px;
@@ -93,15 +105,11 @@ a:hover {
     height:500px;
     object-fit: cover;
 }
-.floated{
-    padding: 20px;
-    position: relative;
-    top: -110px;
-    left: 700px;
-    width: 600px;
+.description{
     color:rgb(138, 65, 36);
     font-size: larger;
     font-family: 'Quicksand', sans-serif;
+    margin: 60px;
 }
 .floated-lounge{
     padding-left: 90px;
