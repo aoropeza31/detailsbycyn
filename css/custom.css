@@ -161,7 +161,7 @@ h5{
     color: rgb(114, 62, 9);
     display: grid;
     place-items: center;
-    margin: 0px 200px 0px 200px;
+    margin: 0px 100px 0px 100px;
     }
 }
   @media only screen and (max-width: 768px){
@@ -185,6 +185,49 @@ h5{
         color: rgb(114, 62, 9);
         display: grid;
         place-items: center;
-        margin: 0px 30px 0px 30px;
-        }
+        margin: 0px 0px 0px 0px;
+    }
+
+    #glamping-background{
+        background-image: url(../img/HD-photos/add-on5.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 1140px;
+        background-size: cover;
+        display: grid;
+        align-items: center;
+    }
+    
+    #lounge-background{
+        background-image: url(../img/HD-photos/glamp-tent11.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 1165px;
+        background-size: cover;
+        display: grid;
+        align-items: center;
+    }
+    
+    #picnic-background{
+        background-image: url(../img/HD-photos/picnic-2.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 1380px;
+        background-size: cover;
+        display: grid;
+        align-items: center;
+    }
+    #policies-background{
+        background-image: url(../img/HD-photos/add-on1.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 855px;
+        background-size: cover;
+        display: grid;
+        align-items: center;
+    }
   }
