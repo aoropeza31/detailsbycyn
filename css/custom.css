@@ -34,7 +34,17 @@ a:hover {
     width: 250px;
     object-fit: cover;
 }
-/*sets the background image of Glamping Page.*/
+/*sets the background image of each Page.*/
+#home-background{
+    background-image: url(../img/HD-photos/glamp-main-photo.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 900px;
+    background-size: cover;
+    display: grid;
+    align-items: center;
+}
 #glamping-background{
     background-image: url(../img/HD-photos/add-on5.jpeg);
     background-repeat: no-repeat;
@@ -84,6 +94,7 @@ a:hover {
     display: grid;
     place-items: center;
     margin: 0px 300px 0px 300px;
+    text-align: center;
 }
 
 ul{
@@ -123,6 +134,12 @@ h5{
 .home-img{
     width: 713px;
     height:600px;
+    object-fit: cover;
+}
+
+img{
+    width: 400px;
+    height: 300px;
     object-fit: cover;
 }
 
@@ -175,7 +192,7 @@ h5{
 
   }
   @media only screen and (max-width: 576px){
-      .logo-image{
+    .logo-image{
         height: 120px ;
         width: 540px;
         object-fit: cover;
@@ -186,6 +203,8 @@ h5{
         display: grid;
         place-items: center;
         margin: 0px 0px 0px 0px;
+        position: relative;
+        max-width: 100%;
     }
 
     #glamping-background{
@@ -193,7 +212,7 @@ h5{
         background-repeat: no-repeat;
         background-position: center;
         width: 100%;
-        height: 1140px;
+        height: 100%;
         background-size: cover;
         display: grid;
         align-items: center;
@@ -204,7 +223,7 @@ h5{
         background-repeat: no-repeat;
         background-position: center;
         width: 100%;
-        height: 1165px;
+        height: 100%;
         background-size: cover;
         display: grid;
         align-items: center;
@@ -215,7 +234,7 @@ h5{
         background-repeat: no-repeat;
         background-position: center;
         width: 100%;
-        height: 1380px;
+        height: 100%;
         background-size: cover;
         display: grid;
         align-items: center;
@@ -225,9 +244,21 @@ h5{
         background-repeat: no-repeat;
         background-position: center;
         width: 100%;
-        height: 855px;
+        height: 100%;
         background-size: cover;
         display: grid;
         align-items: center;
+    }
+  }
+  @media only screen and (max-width: 415px){
+    .logo-image{
+        height: 120px ;
+        width: 540px;
+        object-fit: cover;
+    }
+    img{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
     }
   }
