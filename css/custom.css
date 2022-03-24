@@ -1,5 +1,8 @@
 /* your styles go here */
 
+.header{
+    background-color: rgba(27, 29, 29, 0.055);
+}
 body{
     background-color: rgb(248, 240, 230);
     font-family: 'Cormorant Garamond', serif;
@@ -14,8 +17,8 @@ body{
     font-size: 30px;
 }
 .logo-image{
-    height: 130px ;
-    width: 300px;
+    height: 150px ;
+    width: 360px;
     object-fit: cover;
 }
 
@@ -34,13 +37,37 @@ a:hover {
     width: 250px;
     object-fit: cover;
 }
+.carousel-item{
+    text-align: center;
+    height: 40rem;
+    position: relative;
+}
+
+.carousel-container{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
+
+.overlay-image{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.3;
+}
 /*sets the background image of each Page.*/
 #home-background{
     background-image: url(../img/HD-photos/glamp-main-photo.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
-    height: 900px;
+    height: 400px;
     background-size: cover;
     display: grid;
     align-items: center;
@@ -95,6 +122,16 @@ a:hover {
     place-items: center;
     margin: 0px 300px 0px 300px;
     text-align: center;
+}
+.transparent-bg-home{
+    background-color: rgba(250, 235, 215, 0.893);
+    color: rgb(114, 62, 9);
+    display: grid;
+    place-content: center;
+    height: 200px;
+    border-radius: 3%;
+    padding: 30px;
+    
 }
 
 ul{
@@ -168,7 +205,7 @@ img{
 /*---Media Queries --*/
 @media only screen and (max-width: 992px){
     .logo-image{
-        height: 90px ;
+        height: 30px ;
         width: 240px;
         object-fit: cover;
     }
@@ -181,7 +218,21 @@ img{
     margin: 0px 100px 0px 100px;
     }
 }
+
+@media only screen and (max-width: 991px) {
+
+    .logo-image{
+        height: 90px ;
+        width: 160px;
+        object-fit: cover;
+    }
+}
   @media only screen and (max-width: 768px){
+    .logo-image{
+        height: 90px ;
+        width: 160px;
+        object-fit: cover;
+    }
     .transparent-bg{
         background-color: rgba(250, 235, 215, 0.893);
         color: rgb(114, 62, 9);
@@ -193,8 +244,8 @@ img{
   }
   @media only screen and (max-width: 576px){
     .logo-image{
-        height: 120px ;
-        width: 540px;
+        height: 90px ;
+        width: 160px;
         object-fit: cover;
     }
     .transparent-bg{
@@ -252,8 +303,8 @@ img{
   }
   @media only screen and (max-width: 415px){
     .logo-image{
-        height: 120px ;
-        width: 540px;
+        height: 60px ;
+        width: 140px;
         object-fit: cover;
     }
     img{
