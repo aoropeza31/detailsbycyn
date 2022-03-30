@@ -176,7 +176,6 @@ h6{
 
 .add-on-text{
     font-style: italic;
-    color: rgb(138, 65, 36);
 }
 .home-img{
     width: 713px;
@@ -235,6 +234,7 @@ img{
         height: 200px;
         background-color: rgba(245, 244, 244, 0.29);
     }
+
 }
 
 @media only screen and (max-width: 992px){
