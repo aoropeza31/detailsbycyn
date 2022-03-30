@@ -121,7 +121,7 @@ a:hover {
     color: rgb(114, 62, 9);
     display: grid;
     place-items: center;
-    margin: 0px 150px 0px 150px;
+    margin: 0px 0px 0px 0px;
     text-align: center;
 }
 .transparent-bg-home{
@@ -227,7 +227,7 @@ img{
         color: rgb(114, 62, 9);
         display: grid;
         place-items: center;
-        margin: 0px 150px 0px 150px;
+        margin: 0px 0px 0px 0px;
         }
 
     .test-custom{
