@@ -263,6 +263,11 @@ a{
         width: 160px;
         object-fit: cover;
     }
+    .img-instagram{
+        height: 300px;
+        width: 300px;
+        object-fit: cover;
+    }
     .transparent-bg{
         background-color: rgba(250, 235, 215, 0.893);
         color: rgb(114, 62, 9);
