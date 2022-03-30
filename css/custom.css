@@ -214,6 +214,11 @@ a{
     text-align: center;
 }
 
+.logo-image-footer{
+    height: 200px;
+    width: 300px;
+}
+
 /*---Media Queries --*/
 @media only screen and (max-width: 1256px) {
     .logo-image{
