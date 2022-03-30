@@ -149,11 +149,13 @@ h1{
 h5{
     font-family: 'rolasan_signatureregular', cursive;
     font-size: 45px;
+    color: rgb(138, 65, 36);
 }
 
 h6{
     font-family: 'rolasan_signatureregular', cursive;
     font-size: 30px;
+    
 }
 
 #main-photo{
@@ -197,15 +199,15 @@ img{
     font-family: 'Cormorant Garamond', serif;
 }
 
+a{
+    color: white;
+}
+
 .btn-design{
+    background-color: rgb(138, 65, 36);
     border-color: rgb(138, 65, 36);
     color:rgb(255, 255, 255);
     font-size: larger;
-}
-.btn-design:hover{
-    background-color: rgb(138, 65, 36);
-    color: white;
-    border-color: rgb(138, 65, 36);
 }
 
 .icon-align-center{
