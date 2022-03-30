@@ -246,9 +246,6 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  color: #e01557;
-}
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
   color: inherit;
@@ -2924,9 +2921,6 @@ textarea.form-control-lg {
   }
 }
 
-.btn:hover {
-  color: #212529;
-}
 
 .btn-check:focus + .btn, .btn:focus {
   outline: 0;
