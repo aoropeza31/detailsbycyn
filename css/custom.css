@@ -263,7 +263,6 @@ a{
     margin: 0px 0px 0px 0px;
     }
 
-
 }
   @media only screen and (max-width: 768px){
     .logo-image{
@@ -277,6 +276,9 @@ a{
         display: grid;
         place-items: center;
         margin: 0px 0px 0px 0px;
+    }
+    .navbar{
+        left: 0px;
     }
 
   }
