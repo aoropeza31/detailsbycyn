@@ -23,7 +23,9 @@ body{
 .logo{
     font-size: 40px;
 }
-
+.headerStyle{
+    margin-top: 170px;
+}
 .navbar{
     left: 39px;
 }
@@ -220,6 +222,10 @@ a{
     width: 300px;
 }
 
+navbar{
+    z-index: 999;
+}
+
 /*---Media Queries --*/
 @media only screen and (max-width: 1256px) {
     .logo-image{
@@ -244,6 +250,9 @@ a{
 }
 
 @media only screen and (max-width: 992px){
+    .headerStyle{
+        margin-top: 300px;
+    }
     .img-instagram{
         height: 300px;
         width: 340px;
@@ -262,7 +271,6 @@ a{
     place-items: center;
     margin: 0px 0px 0px 0px;
     }
-
 }
   @media only screen and (max-width: 768px){
     .logo-image{
