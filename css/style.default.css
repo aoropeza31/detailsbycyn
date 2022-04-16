@@ -3528,7 +3528,7 @@ fieldset:disabled .btn {
 }
 
 .fade {
-  transition: opacity 0.15s linear;
+  transition: opacity 0.25s linear;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -3548,7 +3548,7 @@ fieldset:disabled .btn {
 .collapsing {
   height: 0;
   overflow: hidden;
-  transition: height 0.35s ease;
+  transition: height .35s ease;
 }
 
 @media (prefers-reduced-motion: reduce) {
