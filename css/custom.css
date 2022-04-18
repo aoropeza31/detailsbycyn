@@ -23,7 +23,7 @@ body{
 .logo{
     font-size: 40px;
 }
-.headerStyle{
+.headerMargin{
     margin-top: 170px;
 }
 .navbar{
@@ -106,7 +106,7 @@ body{
     display: grid;
     align-items: center;
 }
-#policies-background{
+#contact-background{
     background-image: url(../img/HD-photos/add-on1.jpeg);
     background-repeat: no-repeat;
     background-position: center;
