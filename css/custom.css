@@ -5,9 +5,7 @@ body{
     font-family: 'Cormorant Garamond', serif;
     color: rgb(0, 0, 0);
 }
-.logo:hover{
-    color: rgb(114, 62, 9);
-}
+
 .logo-font{
     font-family: 'Cormorant Garamond', serif;
     font-style: italic;
@@ -20,8 +18,11 @@ body{
     object-fit: cover;
 }
 
-.logo{
-    font-size: 40px;
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .headerMargin{
     margin-top: 170px;
@@ -62,6 +63,21 @@ body{
     background-size: cover;
     opacity: 0.3;
 }
+
+.parallax {
+    /* The image used */
+    background-image: url(../img/HD-photos/inside-tent1.jpeg);
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
 /*sets the background image of each Page.*/
 #home-background{
     background-image: url(../img/HD-photos/glamp-main-photo.jpeg);
@@ -184,10 +200,23 @@ h6{
     object-fit: cover;
 }
 
-img{
-    width: 400px;
-    height: 300px;
+.package-img{
+    width: 100%;
+    height: 100vh;
     object-fit: cover;
+    opacity: .3;
+}
+
+.package-img-container{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.border-design{
+    width: 400px;
+    background: rgba(255, 255, 255, 0.616);
+    border-radius: 5%;
 }
 
 /*this styles the content within the transparent box*/
@@ -195,6 +224,7 @@ img{
     color:rgb(138, 65, 36);
     font-size: larger;
     font-family: 'Cormorant Garamond', serif;
+    height: 100%;
 }
 
 a{
@@ -351,24 +381,6 @@ navbar{
         left: 0px;
     }
   }
-  @media only screen and (max-width: 415px){
-    .logo-image{
-        height: 60px ;
-        width: 140px;
-        object-fit: cover;
-    }
-    img{
-        width: 100%;
-        height: 300px;
-        object-fit: cover;
-    }
-    .test-custom{
-        width: 300px; 
-        height: 300px;
-        background-color: rgba(245, 244, 244, 0.29);
-    }
-  }
-
   @media (max-width: 575px) {
 
     .navbar-collapse{
@@ -389,4 +401,30 @@ navbar{
     .collapsing {
         transition: none;
     }
+
+  @media only screen and (max-width: 415px){
+    .logo-image{
+        height: 60px ;
+        width: 140px;
+        object-fit: cover;
+    }
+    package-img{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+    .test-custom{
+        width: 300px; 
+        height: 300px;
+        background-color: rgba(245, 244, 244, 0.29);
+    }
+
+
+  }
+
+  @media only screen and (max-width: 330px){
+
+
+
+
   }
