@@ -161,7 +161,7 @@ ul{
 }
 ul li{
     line-height: 25px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 h1{
     font-family: 'rolasan_signatureregular', cursive;
@@ -318,7 +318,17 @@ navbar{
         width: 160px;
         object-fit: cover;
     }
+/*** LEFT ALIGN LIST
 
+.align-text-left{
+    display: inline-block;
+    text-align: left;
+}
+***/
+
+    .content-styling{
+        font-size: medium;
+    }
     .transparent-bg{
         background-color: rgba(250, 235, 215, 0.893);
         color: rgb(114, 62, 9);
@@ -417,9 +427,7 @@ navbar{
         background-color: rgba(245, 244, 244, 0.29);
     }
 
-    .package-list{
-        font-size: 13px;
-    }
+
 
 
   }
