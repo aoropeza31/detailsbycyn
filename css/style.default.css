@@ -4014,6 +4014,7 @@ fieldset:disabled .btn {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  
 }
 
 .nav-link {
@@ -4021,6 +4022,7 @@ fieldset:disabled .btn {
   padding: 0.5rem 1rem;
   color: rgb(138, 65, 36);
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+  
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -10951,7 +10953,7 @@ section {
 }
 
 .navbar .nav-link {
-  font-family: "Satisfy", sans-serif;
+  font-family: 'Cormorant Garamond', serif;
 }
 
 /*
